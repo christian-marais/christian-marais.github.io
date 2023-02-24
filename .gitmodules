@@ -1,0 +1,3 @@
+[submodule "path_to_submodule"] 
+  path = assets/files/lependu/pendu
+  url = git://usr/bin/git
