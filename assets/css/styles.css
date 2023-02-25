@@ -117,7 +117,7 @@ html{
 }
 body{
     width:100vw;
-    /*overflow: hidden;*/
+    overflow-x: hidden;
     margin: 0 0 var(--header-height) 0 ;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);

@@ -295,7 +295,7 @@ window.onload = ()=>{
     });
 
 
-    let a = document.querySelectorAll('.nav__menu');
+    let a = document.querySelectorAll('.nav__menus');
     let tab=[typed1,typed2,typed3,typed4,typed5,typed6,typed8,typed9,typed10];
 
     a.forEach((e)=>{
