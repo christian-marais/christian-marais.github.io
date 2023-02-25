@@ -294,12 +294,10 @@ a.forEach((e)=>{
     e.addEventListener('click',()=>{
         tab.forEach((el)=>{
             el.stop();
+            document.getElementById((e.id).substring(2).toLowerCase()).scrollIntoView()
             setTimeout(()=>{
-                document.getElementById((e.id).substring(2).toLowerCase()).scrollIntoView()
-                setTimeout(()=>{
-                    el.start()
-                },3000)
-            },1000);
+                el.start()
+            },3000);
         })
     })
     
