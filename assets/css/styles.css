@@ -58,7 +58,7 @@
     --z-fixed: 100;
     --z-modal: 1000;
 
-    font-size: clamp(13px,calc(16 * 0.015 * 10vmin),16px);
+    font-size: clamp(14px,calc(16 * 0.015 * 10vmin),16px);
 }
 
 
