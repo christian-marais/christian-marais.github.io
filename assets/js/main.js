@@ -299,7 +299,7 @@ window.onload = ()=>{
     let tab=[typed1,typed2,typed3,typed4,typed5,typed6,typed8,typed9,typed10];
 
     a.forEach((e)=>{
-        addEventListener('click',()=>{
+        e.addEventListener('click',()=>{
             tab.forEach((el)=>{
                 el.stop();
                document.getElementById((e.id).substring(2).toLowerCase()).scrollIntoView(true)
