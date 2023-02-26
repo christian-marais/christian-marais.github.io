@@ -223,7 +223,7 @@ window.onload = ()=>{
         strings: ['Après 10 années de métiers administratifs et commerciaux, j\'ai entamé une reconversion dans les métiers du numérique. J\'ai fait de la communication puis du Webdesign qui m\'ont progressivement amené au métier de <strong>développeur web</strong>.',
         'Fiable, sérieux, motivé, mon souhait est de travailler  dans le <strong>développement de site et d\'application en back end!</strong> et <strong>d\'atteindre le métier de DevOps</strong>'],
         typeSpeed: 40,
-        backSpeed: 0,
+        backSpeed: 60,
         backDelay: 3500,
         smartBackspace: true, 
         loop: true
@@ -231,8 +231,8 @@ window.onload = ()=>{
     typed3 = new Typed('#portfolio1', {
         strings: ['Interface de suivi en temps réel des coureurs via API REST avec map. <br/> Durée: 1 semaine <br/>Techno:JS,HTML5,CSS3, AJAX, LEAFLET.JS',
         'Réalisation: Affichage en temps réel sur la map et dans une liste des coureurs du Grand Raid.<br/> <strong>Page et map dynamiques</strong> via javascript et <strong>utilisation d\'une API</strong>.'],
-        typeSpeed: 0,
-        backSpeed: 0,
+        typeSpeed: 60,
+        backSpeed: 60,
         backDelay: 3500,
         smartBackspace: true, 
         loop: true
@@ -240,8 +240,8 @@ window.onload = ()=>{
     typed4 = new Typed('#portfolio2', {
         strings: ['Modal de disclaimer<br/>Durée: 1 semaine<br/>Plateforme: Wordpress<br/>Techno: Php,JS,MySql',
         'Respect du cahier des charges. <strong>Conception et développement</strong> de la logique applicative avec <strong>manipulation de la BDD</strong> de Wordpress. <strong>Rédaction de la documentation technique.</strong>'],
-        typeSpeed: 0,
-        backSpeed: 0,
+        typeSpeed: 60,
+        backSpeed: 60,
         backDelay: 3500,
         smartBackspace: true, 
         loop: true
@@ -249,8 +249,8 @@ window.onload = ()=>{
     typed5 = new Typed('#portfolio3', {
         strings: ['Jeu Web et javascript du pendu<br/>Durée: 1 semaine<br/>Techno: HTML5,SAAS,JS',
         'Réalisation: <strong>Conception et développement</strong> de la logique applicative avec manipulation du DOM.'],
-        typeSpeed: 0,
-        backSpeed: 0,
+        typeSpeed: 60,
+        backSpeed: 60,
         backDelay: 3500,
         smartBackspace: true, 
         loop: true
@@ -258,8 +258,8 @@ window.onload = ()=>{
     typed6 = new Typed('#portfolio4', {
         strings: ['LMS de formation <br/>techno: LMS/Css/JS<br/>plateforme: moodle',
         'Site d\'apprentissage des étudiants Sup de Pub de l\'organisme de formation IFR. <strong>Gestion de l\'hébergement</strong>, installation et configuration de l\'application web et mobile, <strong>maquettage et création</strong> de page web, <strong>gestion de theme enfant</strong>. <strong>Administration</strong> des utilisateurs, des plugins et rédaction et </strong>mise en conformité des obligations et mentions légales</strong>, <strong>rédaction de contenu web</strong> '],
-        typeSpeed: 0,
-        backSpeed: 0,
+        typeSpeed: 60,
+        backSpeed: 60,
         backDelay: 3500,
         smartBackspace: true, 
         loop: true
@@ -269,8 +269,8 @@ window.onload = ()=>{
         strings: ['Projet Front-End et Back-end PHP from scratch.<br/>Durée: 2 semaine<br/>Techno: Php(POO), MySql',
         'Réalisation: CRUD et MVC. <strong>Front-end dynamique</strong> avec affichage des articles et des catégories d\'articles.',
         'Réalisation: <strong>LOGIN,CRUD Back-End</strong> de gestion des categories, des articles(prix, image, categorie), des utilisateurs et des rôles.'],
-        typeSpeed: 0,
-        backSpeed: 0,
+        typeSpeed: 60,
+        backSpeed: 60,
         backDelay: 3500,
         smartBackspace: false, 
     loop: true
@@ -278,17 +278,17 @@ window.onload = ()=>{
     typed9 = new Typed('#portfolio7', {
         strings: ['Projet Back-end PHP from scratch réalisé dans le cadre d\'un exercice.<br/>Durée: 1 semaine<br/>Techno: Php(POO), MySql',
         'Réalisation: CRUD et MVC. <strong>Front-end dynamique</strong> avec affichage des produits, des prix et du personnel.<strong> Gestion du login et CRUD Back-End</strong> de gestion des prix et du personnel.'],
-        typeSpeed: 0,
-        backSpeed: 0,
-        backDelay: 3500,
+        typeSpeed: 60,
+        backSpeed: 60,
+        backDelay: 4500,
         smartBackspace: false, 
         loop: true
     });
     typed10 = new Typed('#portfolio8', {
         strings: ['Projet Front-End et Back-end PHP from scratch réalisé dans le cadre professionnel.<br/>Durée: 10 semaines<br/>Techno: Php8(POO), Apache2, MySql5, Javascript, Jquery, PhpMailer, Chartjs, FPDF, Putty.',
         'Réalisation: CRUD et MVC. <br/><strong>Conception, maquettage, développement et déploiement</strong> d\'une solution applicative de gestion des stocks d\'un CFA avec un système de permissions.<br/> <strong>Installation et configuration</strong> de php, du serveur web et de base de données sur un serveur debian. <br/><strong>Présentation client</strong> du projet, <strong>rédaction</strong> du cahier des charges final et des documentations techniques.'],
-        typeSpeed: 40,
-        backSpeed: 10,
+        typeSpeed: 60,
+        backSpeed: 60,
         backDelay: 4500,
         smartBackspace: false, 
         loop: true
