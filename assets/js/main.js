@@ -207,7 +207,7 @@ window.onload = ()=>{
 
     //-------------- Typed js------------
 
-    let typed1,typed2,typed3,typed4,typed5,typed6,typed8,typed9,typed10;
+    let typed1,typed2,typed3,typed5,typed6,typed8,typed9,typed10;
 
 
     //--------------Initiate the Typed js------------
@@ -231,15 +231,6 @@ window.onload = ()=>{
     typed3 = new Typed('#portfolio1', {
         strings: ['Interface de suivi en temps réel des coureurs via API REST avec map. <br/> Durée: 1 semaine <br/>Techno:JS,HTML5,CSS3, AJAX, LEAFLET.JS',
         'Réalisation: Affichage en temps réel sur la map et dans une liste des coureurs du Grand Raid.<br/> <strong>Page et map dynamiques</strong> via javascript et <strong>utilisation d\'une API</strong>.'],
-        typeSpeed: 60,
-        backSpeed: 60,
-        backDelay: 3500,
-        smartBackspace: true, 
-        loop: true
-    });
-    typed4 = new Typed('#portfolio2', {
-        strings: ['Modal de disclaimer<br/>Durée: 1 semaine<br/>Plateforme: Wordpress<br/>Techno: Php,JS,MySql',
-        'Respect du cahier des charges. <strong>Conception et développement</strong> de la logique applicative avec <strong>manipulation de la BDD</strong> de Wordpress. <strong>Rédaction de la documentation technique.</strong>'],
         typeSpeed: 60,
         backSpeed: 60,
         backDelay: 3500,
@@ -296,7 +287,7 @@ window.onload = ()=>{
 
 
     let a = document.querySelectorAll('.nav__menus');
-    let tab=[typed1,typed2,typed3,typed4,typed5,typed6,typed8,typed9,typed10];
+    let tab=[typed1,typed2,typed3,typed5,typed6,typed8,typed9,typed10];
 
     a.forEach((e)=>{
         e.addEventListener('click',()=>{
