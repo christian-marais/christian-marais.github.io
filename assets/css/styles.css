@@ -379,6 +379,8 @@ img{
     margin-left: var(--mb-0-5);
     transition: .3s;
 }
+
+
 .button--white{
     background-color:#fff;
     color: var(--first-color);
@@ -407,6 +409,19 @@ img{
     color: var(--first-color-alt);
  }
 
+.button__service{
+    position:relative;
+    background-color: var(--first-color);
+    color:white;
+    cursor:pointer;
+    top:4px;
+    padding:4px 6px;
+    border-radius: 12px;
+}
+
+.button__service:hover{
+    background-color: var(--first-color-second);
+}
 
 /*==================== ABOUT ====================*/
 .about__img{
