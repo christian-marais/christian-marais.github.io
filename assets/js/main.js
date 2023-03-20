@@ -220,7 +220,7 @@ window.onload = ()=>{
     });
 
     typed2 = new Typed('.typed-about', {
-        strings: ['Après 10 années de métiers administratifs et commerciaux, j\'ai pu mener une reconversion réussie dans les métiers du numérique. Je suis un professionnel polyvalent diplomé en <strong> web design, web marketing et développement web</strong> avec des expériences en tant que <strong>designer et intérgateur et développeur web</strong>',
+        strings: ['Après 10 années de métiers administratifs et commerciaux, j\'ai pu mener une reconversion réussie dans les métiers du numérique. Je suis un professionnel polyvalent diplomé en <strong> web design, web marketing et développement web</strong> avec des expériences en tant que <strong>designer, intégrateur et développeur web</strong>',
         'Fiable, sérieux, motivé, mon souhait est de travailler  dans le <strong>développement de site et d\'application en back end!</strong> et <strong>d\'atteindre le métier de DevOps</strong>'],
         typeSpeed: 40,
         backSpeed: 60,
